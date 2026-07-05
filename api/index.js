@@ -13,9 +13,11 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      // Production domains yahan add kar dena
-      // "https://superguardrotherhithe.uk",
-      // "https://superguardrotherhithe-frontend.vercel.app",
+
+      // Production domains
+      "https://superguardbloomsbury.uk",
+      "https://www.superguardbloomsbury.uk",
+      "https://superguard-bloomsburry-frontend.vercel.app",
     ],
     credentials: true,
   })
